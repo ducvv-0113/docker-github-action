@@ -40,6 +40,6 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tag: vuduc99/getting-started:latest
+          tags: vuduc99/getting-started:latest
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
